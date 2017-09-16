@@ -4,7 +4,9 @@
   "description": "Button component for React with transparent text",
   "main": "build/index.js",
   "peerDependencies": {
-    "react": "^15.5.4"
+    "react": "^15.5.4",
+    "radium": "^0.19.4",
+    "react-component-knockout-text": "^0.1.1"
   },
   "dependencies": {
     "radium": "^0.19.4",
@@ -31,12 +33,7 @@
     "babel-preset-env": "^1.5.1"
   },
   "babel": {
-    "presets": [
-      "env"
-    ],
-    "plugins": [
-      "transform-object-rest-spread",
-      "transform-react-jsx"
-    ]
+    "presets": ["env"],
+    "plugins": ["transform-object-rest-spread", "transform-react-jsx"]
   }
 }
