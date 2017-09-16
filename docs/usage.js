@@ -1,16 +1,3 @@
-# react-component-knockout-button
-Button component for React with transparent text
-
-<img src="./docs/knockout.png" alt="result" style="width: 600px;"/>
-
-## Installation
-
-`yarn install react-component-knockout-button`
-
-## Usage
-
-[embedmd]:# (./docs/usage.js javascript)
-```javascript
 import React from "react";
 import ReactDOM from "react-dom";
 import Radium, { Style } from "radium";
@@ -41,9 +28,3 @@ ReactDOM.render(
   </div>,
   document.getElementById("app")
 );
-```
-
-
-
-
-
