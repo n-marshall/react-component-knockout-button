@@ -1,11 +1,11 @@
 # react-component-knockout-button
 Button component for React with transparent text
 
-<img src="./docs/knockout.png" alt="result" style="width: 600px;"/>
+![result](./docs/knockout.png "result")
 
 ## Installation
 
-`yarn install react-component-knockout-button`
+`yarn add react-component-knockout-button`
 
 ## Usage
 
