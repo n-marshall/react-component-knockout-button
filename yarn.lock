@@ -810,8 +810,8 @@ camelcase@^3.0.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-3.0.0.tgz#32fc4b9fcdaf845fcdf7e73bb97cac2261f0ab0a"
 
 caniuse-lite@^1.0.30000718:
-  version "1.0.30000730"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000730.tgz#26a14ff1b3bfc1f1cb4da75c2c73451b3f1ade1a"
+  version "1.0.30000731"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000731.tgz#6f2b9096285af3c7bcf2abe39647bb525d68c842"
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -2188,9 +2188,9 @@ rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-component-knockout-text@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/react-component-knockout-text/-/react-component-knockout-text-0.0.3.tgz#32533bd847ff04289a7e7d43263f52d001e00e76"
+react-component-knockout-text@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/react-component-knockout-text/-/react-component-knockout-text-0.1.1.tgz#e9d69db6240bf38a19862f843c7367870654df3f"
   dependencies:
     radium "^0.19.4"
     react "^15.5.4"

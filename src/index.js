@@ -7,8 +7,10 @@ import Button from "./Button";
 const styles = {
   container: {
     position: "relative",
-    borderRadius: 200,
-    overflow: "hidden"
+    borderRadius: 999,
+    overflow: "hidden",
+    minHeight: "50%",
+    backgroundColor: "transparent"
   },
   buttonContainer: {
     position: "absolute",
@@ -27,16 +29,11 @@ const styles = {
 };
 
 const KnockoutButton = ({ text, style = {}, ...props }) => (
-  <div style={styles.container}>
+  <div style={{ ...style, ...styles.container }}>
     <div style={styles.buttonContainer}>
-      <Button
-        style={styles.button}
-        onPress={() => {
-          console.log("CLICKED");
-        }}
-      />
+      <Button {...props} style={styles.button} />
     </div>
-    <KnockoutText text={text} />
+    <KnockoutText text={text} style={style} />
   </div>
 );
 
